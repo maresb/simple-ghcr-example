@@ -18,6 +18,7 @@ The workflow is extremely basic so you will probably want to adapt it to your ne
 The following suggestions are beyond the scope of this simple demonstration:
 
 * Add other build triggers besides "workflow dispatch" by modifying the `on` section.
+* Customize the name of the image. (Currently it's the repo name with `-image` as a suffix.)
 * Generate tags and other metadata with [docker/metadata-action](https://github.com/docker/metadata-action)
 * Enable caching of build layers.
 * Set up QEMU if you want to build images for other architectures.
